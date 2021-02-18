@@ -32,7 +32,7 @@ namespace ToolKitMarkupProject.Droid
                 //Control.SetBackgroundResource(Resource.Layout.rounded_shape);
                 var gradientDrawable = new GradientDrawable();
                 gradientDrawable.SetCornerRadius(60f);
-                gradientDrawable.SetColor(Android.Graphics.Color.LightGray);
+                gradientDrawable.SetColor(Color.FromRgba(211,211,211,0.2).ToAndroid());
                 Control.SetBackground(gradientDrawable);
 
                 Control.SetPadding(50, Control.PaddingTop, Control.PaddingRight,
